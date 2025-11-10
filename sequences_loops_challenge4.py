@@ -1,5 +1,5 @@
 # Input: Two lists
-# Output: Return all duplicated values from lists.
+# Output: Return all duplicated values from lists
 
 print("Duplicated values from Lists")
 
