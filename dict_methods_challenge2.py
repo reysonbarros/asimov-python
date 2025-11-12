@@ -2,10 +2,10 @@
 # Output: Total and percentage of correct answers
 
 print("Brazilian Federations Game")
-print("Type q to exit")
+print("Type quit to exit")
 
-count_passed = 0
-count_failed = 0
+correct_answers_counter = 0
+question_counter=0
 
 federations = {
     "Acre": "Rio Branco",
@@ -39,15 +39,20 @@ federations = {
 
 for k,v in federations.items():
     input_user = input(f"What is the capital from {k}?\n")
-    if input_user == 'q':
+
+    if input_user == 'quit':
         break
+
     if input_user.upper() == v.upper():
-        count_passed += 1
-    else:
-        count_failed += 1
+        correct_answers_counter += 1
 
-print(f"Total passed: {count_passed}")
-print(f"Percentage passed: {(count_passed * 100)/27:.2f}")
+    question_counter += 1
 
+
+print(f"Total correct answers: {correct_answers_counter}")
+if question_counter == 0:
+    print(f"Percentage correct answers: 0.00%")
+else:
+    print(f"Percentage correct answers: {(correct_answers_counter * 100)/question_counter:.2f}%")
 
 
