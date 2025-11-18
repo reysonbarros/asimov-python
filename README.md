@@ -54,10 +54,21 @@ python3.14 -m pip install module_name
 python3.14 -m pip install pandas
 ```
 
+10 - Install ipython(Python interpreter with more features)
+```
+python3.14 -m pip install ipython
+```
+
+11 - Open a new terminal and type ipython
+
 Features:
 
 F-Strings:Formatted string literals (also called f-strings for short) let you include the value of Python expressions 
 inside a string by prefixing the string with f or F and writing expressions as {expression}.
+
+IDEs: 
+
+VSCode and Pycharm
 
 References:
 
