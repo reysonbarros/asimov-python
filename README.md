@@ -72,10 +72,14 @@ VSCode and Pycharm
 
 Magic commands using ipython:
 
+```
 %timeit x+2 -> verify the processing time from this line
 %run test.py -> perform the script using ipython
+```
 
-Jupyter Notebook: The Jupyter Notebook is a web-based interactive computing platform. The notebook combines live code, equations, narrative text, visualizations usually used for data science
+Jupyter Notebook: 
+
+The Jupyter Notebook is a web-based interactive computing platform. The notebook combines live code, equations, narrative text, visualizations usually used for data science
 
 ```
 python3.14 -m pip install jupyter
