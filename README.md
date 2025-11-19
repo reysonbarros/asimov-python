@@ -75,6 +75,13 @@ Magic commands using ipython:
 %timeit x+2 -> verify the processing time from this line
 %run test.py -> perform the script using ipython
 
+Jupyter Notebook: The Jupyter Notebook is a web-based interactive computing platform. The notebook combines live code, equations, narrative text, visualizations usually used for data science
+
+```
+python3.14 -m pip install jupyter
+jupyter-notebook
+jupiter-lab
+```
 References:
 
 https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals
