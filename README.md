@@ -70,6 +70,11 @@ IDEs:
 
 VSCode and Pycharm
 
+Magic commands using ipython:
+
+%timeit x+2 -> verify the processing time from this line
+%run test.py -> perform the script using ipython
+
 References:
 
 https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals
