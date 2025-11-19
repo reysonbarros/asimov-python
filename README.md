@@ -68,7 +68,13 @@ inside a string by prefixing the string with f or F and writing expressions as {
 
 IDEs: 
 
-VSCode and Pycharm
+- Mu(for initial steps with Python) - https://codewith.mu
+- VSCode(open source AI Code Editor) - https://code.visualstudio.com
+- PyCharm(built for web, data, and AI/ML professionals) - https://www.jetbrains.com/pycharm
+- Spyder(for scientific development) - https://www.spyder-ide.org
+- Google Colab(machine learning, data science and education using Jupyter Notebook service) - https://colab.google
+- Python Anywhere(development and app hosting by ANACONDA) - https://www.pythonanywhere.com
+
 
 Magic commands using ipython:
 
