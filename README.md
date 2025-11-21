@@ -92,6 +92,41 @@ python3.14 -m pip install jupyter
 jupyter-notebook
 jupiter-lab
 ```
+
+Create Virtual Environment(venv):
+
+```
+python3.14 -m venv venv_projectA 
+
+```
+
+Activate venv:
+
+```
+source venv_projectA/bin/activate
+```
+
+List installed dependencies:
+
+```
+pip list
+```
+
+Disable venv:
+
+```
+deactivate
+```
+
+Create and execute requirements.txt:
+
+```
+pip freeze -> requirements.txt
+pip install -r requirements.txt
+```
+
+Note: DO NOT SHARE YOUR venv folder. Use .gitignore
+
 References:
 
 https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals
